@@ -1,0 +1,389 @@
+2026-06-04T10:57:03.631+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Starting Application using Java 25.0.1 with PID 8900 (C:\Training\SpringMicroServices\04_AccountService\target\classes started by student18 in C:\Training\SpringMicroServices\04_AccountService)
+2026-06-04T10:57:03.634+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : No active profile set, falling back to 1 default profile: "default"
+2026-06-04T10:57:03.698+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-04T10:57:03.699+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-04T10:57:04.453+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-04T10:57:04.507+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+2026-06-04T10:57:05.044+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8181 (http)
+2026-06-04T10:57:05.056+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-04T10:57:05.057+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-04T10:57:05.101+05:30  INFO 8900 --- [04_AccountService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1402 ms
+2026-06-04T10:57:05.259+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-04T10:57:05.637+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cb39712
+2026-06-04T10:57:05.639+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-04T10:57:05.669+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-04T10:57:05.724+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-04T10:57:06.227+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-04T10:57:06.328+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/accounts_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: accounts_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-04T10:57:07.108+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-04T10:57:07.115+05:30  INFO 8900 --- [04_AccountService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T10:57:07.213+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-04T10:57:07.429+05:30  WARN 8900 --- [04_AccountService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-04T10:57:07.746+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8181 (http) with context path '/'
+2026-06-04T10:57:07.752+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Started Application in 4.55 seconds (process running for 5.251)
+2026-06-04T10:57:23.024+05:30  INFO 8900 --- [04_AccountService] [http-nio-8181-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-04T10:57:23.025+05:30  INFO 8900 --- [04_AccountService] [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-04T10:57:23.026+05:30  INFO 8900 --- [04_AccountService] [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-06-04T11:30:03.368+05:30  INFO 8900 --- [04_AccountService] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-06-04T11:30:03.374+05:30  INFO 8900 --- [04_AccountService] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-04T11:30:03.377+05:30  INFO 8900 --- [04_AccountService] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-04T11:30:03.381+05:30  INFO 8900 --- [04_AccountService] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T11:30:03.384+05:30  INFO 8900 --- [04_AccountService] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-04T11:30:03.388+05:30  INFO 8900 --- [04_AccountService] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-04T11:30:03.485+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Starting Application using Java 25.0.1 with PID 8900 (C:\Training\SpringMicroServices\04_AccountService\target\classes started by student18 in C:\Training\SpringMicroServices\04_AccountService)
+2026-06-04T11:30:03.485+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : No active profile set, falling back to 1 default profile: "default"
+2026-06-04T11:30:03.688+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-04T11:30:03.703+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+2026-06-04T11:30:03.817+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8181 (http)
+2026-06-04T11:30:03.819+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-04T11:30:03.820+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-04T11:30:03.842+05:30  INFO 8900 --- [04_AccountService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 353 ms
+2026-06-04T11:30:03.881+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-06-04T11:30:03.895+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b0fcc08
+2026-06-04T11:30:03.896+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-06-04T11:30:03.898+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-04T11:30:03.935+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-04T11:30:03.938+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/accounts_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: accounts_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-04T11:30:03.995+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-04T11:30:03.996+05:30  INFO 8900 --- [04_AccountService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T11:30:04.118+05:30  WARN 8900 --- [04_AccountService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-04T11:30:04.236+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8181 (http) with context path '/'
+2026-06-04T11:30:04.259+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Started Application in 0.811 seconds (process running for 1981.759)
+2026-06-04T11:30:04.261+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-04T11:31:00.069+05:30  INFO 8900 --- [04_AccountService] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-06-04T11:31:00.070+05:30  INFO 8900 --- [04_AccountService] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-04T11:31:00.072+05:30  INFO 8900 --- [04_AccountService] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-04T11:31:00.075+05:30  INFO 8900 --- [04_AccountService] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T11:31:00.076+05:30  INFO 8900 --- [04_AccountService] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-06-04T11:31:00.079+05:30  INFO 8900 --- [04_AccountService] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-06-04T11:31:00.155+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Starting Application using Java 25.0.1 with PID 8900 (C:\Training\SpringMicroServices\04_AccountService\target\classes started by student18 in C:\Training\SpringMicroServices\04_AccountService)
+2026-06-04T11:31:00.156+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : No active profile set, falling back to 1 default profile: "default"
+2026-06-04T11:31:00.321+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-04T11:31:00.334+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
+2026-06-04T11:31:00.417+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8181 (http)
+2026-06-04T11:31:00.418+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-04T11:31:00.418+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-04T11:31:00.439+05:30  INFO 8900 --- [04_AccountService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 281 ms
+2026-06-04T11:31:00.466+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-06-04T11:31:00.481+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62f1e777
+2026-06-04T11:31:00.481+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-06-04T11:31:00.482+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-04T11:31:00.513+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-04T11:31:00.515+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/accounts_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: accounts_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-04T11:31:00.564+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-04T11:31:00.565+05:30  INFO 8900 --- [04_AccountService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T11:31:00.669+05:30  WARN 8900 --- [04_AccountService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-04T11:31:00.755+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8181 (http) with context path '/'
+2026-06-04T11:31:00.758+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Started Application in 0.628 seconds (process running for 2038.258)
+2026-06-04T11:31:00.763+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-04T11:58:32.319+05:30  INFO 8900 --- [04_AccountService] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-06-04T11:58:32.321+05:30  INFO 8900 --- [04_AccountService] [Thread-9] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-04T11:58:32.323+05:30  INFO 8900 --- [04_AccountService] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-04T11:58:32.325+05:30  INFO 8900 --- [04_AccountService] [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T11:58:32.325+05:30  INFO 8900 --- [04_AccountService] [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-06-04T11:58:32.329+05:30  INFO 8900 --- [04_AccountService] [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2026-06-04T11:58:32.418+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Starting Application using Java 25.0.1 with PID 8900 (C:\Training\SpringMicroServices\04_AccountService\target\classes started by student18 in C:\Training\SpringMicroServices\04_AccountService)
+2026-06-04T11:58:32.419+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : No active profile set, falling back to 1 default profile: "default"
+2026-06-04T11:58:32.628+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-04T11:58:32.643+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+2026-06-04T11:58:32.743+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8181 (http)
+2026-06-04T11:58:32.745+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-04T11:58:32.745+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-04T11:58:32.766+05:30  INFO 8900 --- [04_AccountService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 344 ms
+2026-06-04T11:58:32.801+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-06-04T11:58:32.816+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@477030ed
+2026-06-04T11:58:32.817+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-06-04T11:58:32.818+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-04T11:58:32.854+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-04T11:58:32.857+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/accounts_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: accounts_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-04T11:58:32.917+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-04T11:58:32.918+05:30  INFO 8900 --- [04_AccountService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T11:58:33.014+05:30  WARN 8900 --- [04_AccountService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-04T11:58:33.117+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8181 (http) with context path '/'
+2026-06-04T11:58:33.119+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Started Application in 0.74 seconds (process running for 3690.618)
+2026-06-04T11:58:33.121+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-04T11:58:46.611+05:30  INFO 8900 --- [04_AccountService] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (1 addition, 1 deletion, 3 modifications)
+2026-06-04T11:58:46.612+05:30  INFO 8900 --- [04_AccountService] [Thread-13] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-04T11:58:46.614+05:30  INFO 8900 --- [04_AccountService] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-04T11:58:46.616+05:30  INFO 8900 --- [04_AccountService] [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T11:58:46.617+05:30  INFO 8900 --- [04_AccountService] [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2026-06-04T11:58:46.621+05:30  INFO 8900 --- [04_AccountService] [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2026-06-04T11:58:46.696+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Starting Application using Java 25.0.1 with PID 8900 (C:\Training\SpringMicroServices\04_AccountService\target\classes started by student18 in C:\Training\SpringMicroServices\04_AccountService)
+2026-06-04T11:58:46.696+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : No active profile set, falling back to 1 default profile: "default"
+2026-06-04T11:58:46.839+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-04T11:58:46.850+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2026-06-04T11:58:46.917+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8181 (http)
+2026-06-04T11:58:46.918+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-04T11:58:46.918+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-04T11:58:46.939+05:30  INFO 8900 --- [04_AccountService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 241 ms
+2026-06-04T11:58:46.969+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2026-06-04T11:58:46.986+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c8e8fc6
+2026-06-04T11:58:46.986+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2026-06-04T11:58:46.987+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-04T11:58:47.021+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-04T11:58:47.023+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/accounts_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: accounts_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-04T11:58:47.068+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-04T11:58:47.069+05:30  INFO 8900 --- [04_AccountService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T11:58:47.155+05:30  WARN 8900 --- [04_AccountService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-04T11:58:47.228+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8181 (http) with context path '/'
+2026-06-04T11:58:47.238+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Started Application in 0.566 seconds (process running for 3704.738)
+2026-06-04T11:58:47.240+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-04T12:00:17.337+05:30  INFO 8900 --- [04_AccountService] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-06-04T12:00:17.338+05:30  INFO 8900 --- [04_AccountService] [Thread-17] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-04T12:00:17.341+05:30  INFO 8900 --- [04_AccountService] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-04T12:00:17.343+05:30  INFO 8900 --- [04_AccountService] [Thread-17] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T12:00:17.344+05:30  INFO 8900 --- [04_AccountService] [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2026-06-04T12:00:17.347+05:30  INFO 8900 --- [04_AccountService] [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2026-06-04T12:00:17.422+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Starting Application using Java 25.0.1 with PID 8900 (C:\Training\SpringMicroServices\04_AccountService\target\classes started by student18 in C:\Training\SpringMicroServices\04_AccountService)
+2026-06-04T12:00:17.422+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : No active profile set, falling back to 1 default profile: "default"
+2026-06-04T12:00:17.562+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-04T12:00:17.573+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2026-06-04T12:00:17.640+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8181 (http)
+2026-06-04T12:00:17.641+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-04T12:00:17.641+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-04T12:00:17.661+05:30  INFO 8900 --- [04_AccountService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 237 ms
+2026-06-04T12:00:17.687+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2026-06-04T12:00:17.703+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a0ec193
+2026-06-04T12:00:17.703+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2026-06-04T12:00:17.704+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-04T12:00:17.732+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-04T12:00:17.735+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/accounts_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: accounts_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-04T12:00:17.791+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-04T12:00:17.792+05:30  INFO 8900 --- [04_AccountService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T12:00:17.883+05:30  WARN 8900 --- [04_AccountService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-04T12:00:17.962+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8181 (http) with context path '/'
+2026-06-04T12:00:17.966+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Started Application in 0.569 seconds (process running for 3795.465)
+2026-06-04T12:00:17.967+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-04T12:00:27.454+05:30  INFO 8900 --- [04_AccountService] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-06-04T12:00:27.455+05:30  INFO 8900 --- [04_AccountService] [Thread-21] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-04T12:00:27.457+05:30  INFO 8900 --- [04_AccountService] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-04T12:00:27.459+05:30  INFO 8900 --- [04_AccountService] [Thread-21] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T12:00:27.459+05:30  INFO 8900 --- [04_AccountService] [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2026-06-04T12:00:27.463+05:30  INFO 8900 --- [04_AccountService] [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2026-06-04T12:00:27.532+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Starting Application using Java 25.0.1 with PID 8900 (C:\Training\SpringMicroServices\04_AccountService\target\classes started by student18 in C:\Training\SpringMicroServices\04_AccountService)
+2026-06-04T12:00:27.533+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : No active profile set, falling back to 1 default profile: "default"
+2026-06-04T12:00:27.673+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-04T12:00:27.684+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2026-06-04T12:00:27.754+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8181 (http)
+2026-06-04T12:00:27.755+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-04T12:00:27.755+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-04T12:00:27.775+05:30  INFO 8900 --- [04_AccountService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 240 ms
+2026-06-04T12:00:27.801+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2026-06-04T12:00:27.815+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ece3bb9
+2026-06-04T12:00:27.816+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2026-06-04T12:00:27.817+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-04T12:00:27.848+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-04T12:00:27.850+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/accounts_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: accounts_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-04T12:00:27.895+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-04T12:00:27.896+05:30  INFO 8900 --- [04_AccountService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T12:00:27.973+05:30  WARN 8900 --- [04_AccountService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-04T12:00:28.049+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8181 (http) with context path '/'
+2026-06-04T12:00:28.056+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Started Application in 0.547 seconds (process running for 3805.556)
+2026-06-04T12:00:28.057+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-04T12:00:57.673+05:30  INFO 8900 --- [04_AccountService] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-06-04T12:00:57.674+05:30  INFO 8900 --- [04_AccountService] [Thread-25] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-04T12:00:57.676+05:30  INFO 8900 --- [04_AccountService] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-04T12:00:57.678+05:30  INFO 8900 --- [04_AccountService] [Thread-25] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T12:00:57.679+05:30  INFO 8900 --- [04_AccountService] [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2026-06-04T12:00:57.682+05:30  INFO 8900 --- [04_AccountService] [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2026-06-04T12:00:57.755+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Starting Application using Java 25.0.1 with PID 8900 (C:\Training\SpringMicroServices\04_AccountService\target\classes started by student18 in C:\Training\SpringMicroServices\04_AccountService)
+2026-06-04T12:00:57.756+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : No active profile set, falling back to 1 default profile: "default"
+2026-06-04T12:00:57.895+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-04T12:00:57.906+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2026-06-04T12:00:57.968+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8181 (http)
+2026-06-04T12:00:57.969+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-04T12:00:57.969+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-04T12:00:57.988+05:30  INFO 8900 --- [04_AccountService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 230 ms
+2026-06-04T12:00:58.017+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2026-06-04T12:00:58.032+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@422abd29
+2026-06-04T12:00:58.032+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2026-06-04T12:00:58.033+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-04T12:00:58.063+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-04T12:00:58.065+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/accounts_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: accounts_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-04T12:00:58.120+05:30  INFO 8900 --- [04_AccountService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-04T12:00:58.121+05:30  INFO 8900 --- [04_AccountService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T12:00:58.196+05:30  WARN 8900 --- [04_AccountService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-04T12:00:58.274+05:30  INFO 8900 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8181 (http) with context path '/'
+2026-06-04T12:00:58.280+05:30  INFO 8900 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Started Application in 0.548 seconds (process running for 3835.78)
+2026-06-04T12:00:58.283+05:30  INFO 8900 --- [04_AccountService] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-04T12:01:05.482+05:30  INFO 8900 --- [04_AccountService] [RMI TCP Connection(86)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-06-04T12:01:05.483+05:30  INFO 8900 --- [04_AccountService] [RMI TCP Connection(86)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-04T12:01:05.485+05:30  INFO 8900 --- [04_AccountService] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-04T12:01:05.487+05:30  INFO 8900 --- [04_AccountService] [RMI TCP Connection(86)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T12:01:05.488+05:30  INFO 8900 --- [04_AccountService] [RMI TCP Connection(86)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2026-06-04T12:01:05.491+05:30  INFO 8900 --- [04_AccountService] [RMI TCP Connection(86)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2026-06-04T12:01:08.115+05:30  INFO 7884 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Starting Application using Java 25.0.1 with PID 7884 (C:\Training\SpringMicroServices\04_AccountService\target\classes started by student18 in C:\Training\SpringMicroServices\04_AccountService)
+2026-06-04T12:01:08.118+05:30  INFO 7884 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : No active profile set, falling back to 1 default profile: "default"
+2026-06-04T12:01:08.257+05:30  INFO 7884 --- [04_AccountService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-04T12:01:08.258+05:30  INFO 7884 --- [04_AccountService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-04T12:01:09.263+05:30  INFO 7884 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-04T12:01:09.325+05:30  INFO 7884 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2026-06-04T12:01:09.858+05:30  INFO 7884 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8181 (http)
+2026-06-04T12:01:09.871+05:30  INFO 7884 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-04T12:01:09.871+05:30  INFO 7884 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-04T12:01:09.919+05:30  INFO 7884 --- [04_AccountService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1658 ms
+2026-06-04T12:01:10.077+05:30  INFO 7884 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-04T12:01:10.452+05:30  INFO 7884 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7316073b
+2026-06-04T12:01:10.454+05:30  INFO 7884 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-04T12:01:10.483+05:30  INFO 7884 --- [04_AccountService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-04T12:01:10.545+05:30  INFO 7884 --- [04_AccountService] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-04T12:01:11.049+05:30  INFO 7884 --- [04_AccountService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-04T12:01:11.146+05:30  INFO 7884 --- [04_AccountService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/accounts_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: accounts_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-04T12:01:11.926+05:30  INFO 7884 --- [04_AccountService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-04T12:01:11.934+05:30  INFO 7884 --- [04_AccountService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T12:01:12.032+05:30  INFO 7884 --- [04_AccountService] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-04T12:01:12.250+05:30  WARN 7884 --- [04_AccountService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-04T12:01:12.565+05:30  INFO 7884 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8181 (http) with context path '/'
+2026-06-04T12:01:12.570+05:30  INFO 7884 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Started Application in 5.241 seconds (process running for 6.197)
+2026-06-04T12:01:43.126+05:30  INFO 7884 --- [04_AccountService] [http-nio-8181-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-04T12:01:43.126+05:30  INFO 7884 --- [04_AccountService] [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-04T12:01:43.128+05:30  INFO 7884 --- [04_AccountService] [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-06-04T12:01:43.237+05:30  WARN 7884 --- [04_AccountService] [http-nio-8181-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource customerapi/contact-details for request '/customerapi/contact-details'.]
+2026-06-04T12:54:48.565+05:30  INFO 7884 --- [04_AccountService] [RMI TCP Connection(63)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-06-04T12:54:48.571+05:30  INFO 7884 --- [04_AccountService] [RMI TCP Connection(63)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-04T12:54:48.574+05:30  INFO 7884 --- [04_AccountService] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-04T12:54:48.579+05:30  INFO 7884 --- [04_AccountService] [RMI TCP Connection(63)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T12:54:48.582+05:30  INFO 7884 --- [04_AccountService] [RMI TCP Connection(63)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-04T12:54:48.587+05:30  INFO 7884 --- [04_AccountService] [RMI TCP Connection(63)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-04T13:47:16.593+05:30  INFO 2640 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Starting Application using Java 25.0.1 with PID 2640 (C:\Training\SpringMicroServices\04_AccountService\target\classes started by student18 in C:\Training\SpringMicroServices\04_AccountService)
+2026-06-04T13:47:16.596+05:30  INFO 2640 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : The following 1 profile is active: "prod"
+2026-06-04T13:47:16.656+05:30  INFO 2640 --- [04_AccountService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-04T13:47:16.657+05:30  INFO 2640 --- [04_AccountService] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-04T13:47:17.514+05:30  INFO 2640 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-04T13:47:17.570+05:30  INFO 2640 --- [04_AccountService] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2026-06-04T13:47:18.119+05:30  INFO 2640 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8181 (http)
+2026-06-04T13:47:18.131+05:30  INFO 2640 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-04T13:47:18.132+05:30  INFO 2640 --- [04_AccountService] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-04T13:47:18.176+05:30  INFO 2640 --- [04_AccountService] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1519 ms
+2026-06-04T13:47:18.335+05:30  INFO 2640 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-04T13:47:18.709+05:30  INFO 2640 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e419693
+2026-06-04T13:47:18.711+05:30  INFO 2640 --- [04_AccountService] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-04T13:47:18.742+05:30  INFO 2640 --- [04_AccountService] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-04T13:47:18.796+05:30  INFO 2640 --- [04_AccountService] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-04T13:47:19.307+05:30  INFO 2640 --- [04_AccountService] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-04T13:47:19.418+05:30  INFO 2640 --- [04_AccountService] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/accounts_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: accounts_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-04T13:47:20.208+05:30  INFO 2640 --- [04_AccountService] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-04T13:47:20.216+05:30  INFO 2640 --- [04_AccountService] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T13:47:20.316+05:30  INFO 2640 --- [04_AccountService] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-04T13:47:20.538+05:30  WARN 2640 --- [04_AccountService] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-04T13:47:20.853+05:30  INFO 2640 --- [04_AccountService] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8181 (http) with context path '/'
+2026-06-04T13:47:20.858+05:30  INFO 2640 --- [04_AccountService] [restartedMain] com.msedcl.main.account.Application      : Started Application in 4.701 seconds (process running for 5.417)
+2026-06-04T13:47:37.572+05:30  INFO 2640 --- [04_AccountService] [http-nio-8181-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-04T13:47:37.572+05:30  INFO 2640 --- [04_AccountService] [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-04T13:47:37.574+05:30  INFO 2640 --- [04_AccountService] [http-nio-8181-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-06-04T16:43:19.031+05:30  INFO 2640 --- [04_AccountService] [RMI TCP Connection(182)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-06-04T16:43:19.037+05:30  INFO 2640 --- [04_AccountService] [RMI TCP Connection(182)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-04T16:43:19.040+05:30  INFO 2640 --- [04_AccountService] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-04T16:43:19.045+05:30  INFO 2640 --- [04_AccountService] [RMI TCP Connection(182)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04T16:43:19.049+05:30  INFO 2640 --- [04_AccountService] [RMI TCP Connection(182)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-04T16:43:19.053+05:30  INFO 2640 --- [04_AccountService] [RMI TCP Connection(182)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
