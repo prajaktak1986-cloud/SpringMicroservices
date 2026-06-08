@@ -1,0 +1,392 @@
+2026-06-05T12:53:52.418+05:30  INFO 10128 --- [customer-service] [restartedMain] com.msedcl.main.customer.Application     : Starting Application using Java 25.0.1 with PID 10128 (C:\Training\SpringMicroServices\02_CustomerService\target\classes started by student18 in C:\Training\SpringMicroServices\02_CustomerService)
+2026-06-05T12:53:52.426+05:30  INFO 10128 --- [customer-service] [restartedMain] com.msedcl.main.customer.Application     : The following 1 profile is active: "prod"
+2026-06-05T12:53:52.506+05:30  INFO 10128 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8383
+2026-06-05T12:53:52.507+05:30  INFO 10128 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8383:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8383/customer-service/default": Connection refused: getsockopt. Will be trying the next url if available
+2026-06-05T12:53:52.509+05:30  WARN 10128 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@3389152d uris = array<String>['http://localhost:8383'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8383/customer-service/default": Connection refused: getsockopt
+2026-06-05T12:53:52.510+05:30  INFO 10128 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8383
+2026-06-05T12:53:52.510+05:30  INFO 10128 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8383:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8383/customer-service/prod": Connection refused: getsockopt. Will be trying the next url if available
+2026-06-05T12:53:52.510+05:30  WARN 10128 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@64dfa0b9 uris = array<String>['http://localhost:8383'], optional = true, profiles = 'prod']): I/O error on GET request for "http://localhost:8383/customer-service/prod": Connection refused: getsockopt
+2026-06-05T12:53:52.511+05:30  INFO 10128 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8383
+2026-06-05T12:53:52.511+05:30  INFO 10128 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8383:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8383/customer-service/default": Connection refused: getsockopt. Will be trying the next url if available
+2026-06-05T12:53:52.511+05:30  WARN 10128 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@30c75e07 uris = array<String>['http://localhost:8383'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8383/customer-service/default": Connection refused: getsockopt
+2026-06-05T12:53:52.514+05:30  INFO 10128 --- [customer-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-05T12:53:52.515+05:30  INFO 10128 --- [customer-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-05T12:53:53.795+05:30  INFO 10128 --- [customer-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-05T12:53:53.844+05:30  INFO 10128 --- [customer-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2026-06-05T12:53:54.072+05:30  INFO 10128 --- [customer-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0c3ffd12-e5a5-387e-ba12-826582dacdd6
+2026-06-05T12:53:54.594+05:30  INFO 10128 --- [customer-service] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-05T12:53:54.606+05:30  INFO 10128 --- [customer-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-05T12:53:54.607+05:30  INFO 10128 --- [customer-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-05T12:53:54.664+05:30  INFO 10128 --- [customer-service] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2147 ms
+2026-06-05T12:53:54.890+05:30  INFO 10128 --- [customer-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-05T12:53:55.252+05:30  INFO 10128 --- [customer-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11bfffc3
+2026-06-05T12:53:55.254+05:30  INFO 10128 --- [customer-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-05T12:53:55.285+05:30  INFO 10128 --- [customer-service] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-05T12:53:55.342+05:30  INFO 10128 --- [customer-service] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-05T12:53:55.858+05:30  INFO 10128 --- [customer-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-05T12:53:55.963+05:30  INFO 10128 --- [customer-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/customer_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: customer_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-05T12:53:56.749+05:30  INFO 10128 --- [customer-service] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-05T12:53:56.757+05:30  INFO 10128 --- [customer-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-05T12:53:56.850+05:30  INFO 10128 --- [customer-service] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-05T12:53:57.161+05:30  WARN 10128 --- [customer-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-05T12:53:57.951+05:30  INFO 10128 --- [customer-service] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2026-06-05T12:53:58.059+05:30  WARN 10128 --- [customer-service] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-06-05T12:53:58.064+05:30  INFO 10128 --- [customer-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-05T12:53:58.069+05:30  INFO 10128 --- [customer-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-05T12:53:58.077+05:30  INFO 10128 --- [customer-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-05T12:53:58.091+05:30  INFO 10128 --- [customer-service] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-05T12:53:58.109+05:30 ERROR 10128 --- [customer-service] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-06-05T12:54:41.783+05:30  INFO 4056 --- [customer-service] [restartedMain] com.msedcl.main.customer.Application     : Starting Application using Java 25.0.1 with PID 4056 (C:\Training\SpringMicroServices\02_CustomerService\target\classes started by student18 in C:\Training\SpringMicroServices\02_CustomerService)
+2026-06-05T12:54:41.786+05:30  INFO 4056 --- [customer-service] [restartedMain] com.msedcl.main.customer.Application     : The following 1 profile is active: "prod"
+2026-06-05T12:54:41.871+05:30  INFO 4056 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8383
+2026-06-05T12:54:41.871+05:30  INFO 4056 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8383:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8383/customer-service/default": Connection refused: getsockopt. Will be trying the next url if available
+2026-06-05T12:54:41.871+05:30  WARN 4056 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@2a039ec4 uris = array<String>['http://localhost:8383'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8383/customer-service/default": Connection refused: getsockopt
+2026-06-05T12:54:41.872+05:30  INFO 4056 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8383
+2026-06-05T12:54:41.873+05:30  INFO 4056 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8383:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8383/customer-service/prod": Connection refused: getsockopt. Will be trying the next url if available
+2026-06-05T12:54:41.873+05:30  WARN 4056 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@677c565d uris = array<String>['http://localhost:8383'], optional = true, profiles = 'prod']): I/O error on GET request for "http://localhost:8383/customer-service/prod": Connection refused: getsockopt
+2026-06-05T12:54:41.874+05:30  INFO 4056 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8383
+2026-06-05T12:54:41.874+05:30  INFO 4056 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8383:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8383/customer-service/default": Connection refused: getsockopt. Will be trying the next url if available
+2026-06-05T12:54:41.874+05:30  WARN 4056 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@6e1fdabe uris = array<String>['http://localhost:8383'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8383/customer-service/default": Connection refused: getsockopt
+2026-06-05T12:54:41.876+05:30  INFO 4056 --- [customer-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-05T12:54:41.877+05:30  INFO 4056 --- [customer-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-05T12:54:42.958+05:30  INFO 4056 --- [customer-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-05T12:54:43.009+05:30  INFO 4056 --- [customer-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2026-06-05T12:54:43.218+05:30  INFO 4056 --- [customer-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0c3ffd12-e5a5-387e-ba12-826582dacdd6
+2026-06-05T12:54:43.725+05:30  INFO 4056 --- [customer-service] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-05T12:54:43.738+05:30  INFO 4056 --- [customer-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-05T12:54:43.739+05:30  INFO 4056 --- [customer-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-05T12:54:43.798+05:30  INFO 4056 --- [customer-service] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1920 ms
+2026-06-05T12:54:44.032+05:30  INFO 4056 --- [customer-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-05T12:54:44.381+05:30  INFO 4056 --- [customer-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48b4d6b7
+2026-06-05T12:54:44.383+05:30  INFO 4056 --- [customer-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-05T12:54:44.410+05:30  INFO 4056 --- [customer-service] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-05T12:54:44.470+05:30  INFO 4056 --- [customer-service] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-05T12:54:44.988+05:30  INFO 4056 --- [customer-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-05T12:54:45.102+05:30  INFO 4056 --- [customer-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/customer_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: customer_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-05T12:54:45.885+05:30  INFO 4056 --- [customer-service] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-05T12:54:45.892+05:30  INFO 4056 --- [customer-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-05T12:54:45.979+05:30  INFO 4056 --- [customer-service] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-05T12:54:46.338+05:30  WARN 4056 --- [customer-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-05T12:54:47.046+05:30  INFO 4056 --- [customer-service] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2026-06-05T12:54:47.146+05:30  INFO 4056 --- [customer-service] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-06-05T12:54:47.160+05:30  INFO 4056 --- [customer-service] [restartedMain] com.msedcl.main.customer.Application     : Started Application in 6.339 seconds (process running for 7.349)
+2026-06-05T12:54:47.802+05:30  INFO 4056 --- [customer-service] [RMI TCP Connection(7)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-05T12:54:47.802+05:30  INFO 4056 --- [customer-service] [RMI TCP Connection(7)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-05T12:54:47.804+05:30  INFO 4056 --- [customer-service] [RMI TCP Connection(7)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-06-05T12:59:09.900+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : Request received to retrive customer details
+2026-06-05T12:59:09.901+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : CustomerId :: 1
+2026-06-05T12:59:10.256+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : Customer details retrived successfully
+2026-06-05T12:59:10.257+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T13:02:31.859+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T13:02:32.044+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T13:02:32.045+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T13:02:32.045+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T13:14:09.304+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-8] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T13:14:09.311+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-8] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T13:14:09.311+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-8] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T13:14:09.312+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-8] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T14:13:41.749+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T14:13:41.756+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T14:13:41.756+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T14:13:41.756+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T14:14:09.830+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T14:14:09.835+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T14:14:09.835+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T14:14:09.835+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T14:14:29.822+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T14:14:29.827+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T14:14:29.827+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T14:14:29.827+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T14:16:10.944+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T14:16:10.951+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T14:16:10.951+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T14:16:10.951+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T14:16:27.578+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T14:16:27.584+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T14:16:27.584+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T14:16:27.584+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T14:16:29.552+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T14:16:29.558+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T14:16:29.558+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T14:16:29.559+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T14:20:57.371+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T14:20:57.378+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T14:20:57.378+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T14:20:57.378+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T14:21:12.213+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T14:21:12.219+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T14:21:12.219+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T14:21:12.219+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T14:22:32.559+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T14:22:32.564+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T14:22:32.565+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T14:22:32.565+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T14:23:32.041+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T14:23:32.047+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T14:23:32.047+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T14:23:32.047+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T14:44:30.248+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T14:44:30.257+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T14:44:30.257+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T14:44:30.257+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T14:45:53.768+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T14:45:53.773+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T14:45:53.773+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T14:45:53.773+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T14:46:04.321+05:30  WARN 4056 --- [customer-service] [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : Request method 'PUT' is not supported
+2026-06-05T14:46:04.337+05:30  WARN 4056 --- [customer-service] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+2026-06-05T14:47:15.242+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-4] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T14:47:15.248+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-4] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T14:47:15.248+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-4] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T14:47:15.249+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-4] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T14:47:19.709+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : Request received to add new customer
+2026-06-05T14:47:19.710+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : CustomerRequestDTO(name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T14:47:19.970+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : New customer added successfully
+2026-06-05T14:47:19.971+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T14:47:58.598+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-6] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T14:47:58.606+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-6] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T14:47:58.607+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-6] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T14:47:58.607+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-6] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T14:47:58.607+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-6] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T14:48:41.862+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-8] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T14:48:41.869+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-8] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T14:48:41.869+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-8] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T14:48:41.869+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-8] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T14:48:41.869+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-8] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T14:49:02.984+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : Request received to add new customer
+2026-06-05T14:49:02.985+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : CustomerRequestDTO(name=snehal, email=snehal@gmail.com, mobileNumber=7896541236)
+2026-06-05T14:49:03.105+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : New customer added successfully
+2026-06-05T14:49:03.105+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=4, name=snehal, email=snehal@gmail.com, mobileNumber=7896541236)
+2026-06-05T14:49:03.119+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T14:49:03.125+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T14:49:03.126+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T14:49:03.126+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T14:49:03.126+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T14:49:03.126+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=4, name=snehal, email=snehal@gmail.com, mobileNumber=7896541236)
+2026-06-05T14:53:12.758+05:30  WARN 4056 --- [customer-service] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.msedcl.main.customer.common.ApiResponse<com.msedcl.main.customer.dto.CustomerResponseDTO>> com.msedcl.main.customer.controller.CustomerController.addNewCustomer(com.msedcl.main.customer.dto.CustomerRequestDTO) with 2 errors: [Field error in object 'customerRequestDTO' on field 'mobileNumber': rejected value [asdasd]; codes [Length.customerRequestDTO.mobileNumber,Length.mobileNumber,Length.java.lang.String,Length]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [customerRequestDTO.mobileNumber,mobileNumber]; arguments []; default message [mobileNumber],13,10]; default message [length must be between 10 and 13]] [Field error in object 'customerRequestDTO' on field 'email': rejected value [sasdas]; codes [Email.customerRequestDTO.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [customerRequestDTO.email,email]; arguments []; default message [email],[Ljakarta.validation.constraints.Pattern$Flag;@7877f03c,.*]; default message [Invalid EmailId]] ]
+2026-06-05T15:07:24.836+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T15:07:24.853+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T15:07:24.853+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T15:07:24.853+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T15:07:24.853+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T15:07:24.853+05:30  INFO 4056 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=4, name=snehal, email=snehal@gmail.com, mobileNumber=7896541236)
+2026-06-05T15:11:02.919+05:30  INFO 4056 --- [customer-service] [RMI TCP Connection(146)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-06-05T15:11:02.924+05:30  INFO 4056 --- [customer-service] [RMI TCP Connection(146)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-05T15:11:02.928+05:30  INFO 4056 --- [customer-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-05T15:11:02.938+05:30  INFO 4056 --- [customer-service] [RMI TCP Connection(146)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-05T15:11:02.943+05:30  INFO 4056 --- [customer-service] [RMI TCP Connection(146)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-05T15:11:02.948+05:30  INFO 4056 --- [customer-service] [RMI TCP Connection(146)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-05T15:11:05.946+05:30  INFO 1700 --- [customer-service] [restartedMain] com.msedcl.main.customer.Application     : Starting Application using Java 25.0.1 with PID 1700 (C:\Training\SpringMicroServices\02_CustomerService\target\classes started by student18 in C:\Training\SpringMicroServices\02_CustomerService)
+2026-06-05T15:11:05.949+05:30  INFO 1700 --- [customer-service] [restartedMain] com.msedcl.main.customer.Application     : The following 1 profile is active: "prod"
+2026-06-05T15:11:06.025+05:30  INFO 1700 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8383
+2026-06-05T15:11:06.025+05:30  INFO 1700 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8383:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8383/customer-service/default": Connection refused: getsockopt. Will be trying the next url if available
+2026-06-05T15:11:06.026+05:30  WARN 1700 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@2fef6c47 uris = array<String>['http://localhost:8383'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8383/customer-service/default": Connection refused: getsockopt
+2026-06-05T15:11:06.027+05:30  INFO 1700 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8383
+2026-06-05T15:11:06.027+05:30  INFO 1700 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8383:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8383/customer-service/prod": Connection refused: getsockopt. Will be trying the next url if available
+2026-06-05T15:11:06.028+05:30  WARN 1700 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@3ba653ef uris = array<String>['http://localhost:8383'], optional = true, profiles = 'prod']): I/O error on GET request for "http://localhost:8383/customer-service/prod": Connection refused: getsockopt
+2026-06-05T15:11:06.028+05:30  INFO 1700 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8383
+2026-06-05T15:11:06.028+05:30  INFO 1700 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8383:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8383/customer-service/default": Connection refused: getsockopt. Will be trying the next url if available
+2026-06-05T15:11:06.028+05:30  WARN 1700 --- [customer-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@656d622a uris = array<String>['http://localhost:8383'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8383/customer-service/default": Connection refused: getsockopt
+2026-06-05T15:11:06.031+05:30  INFO 1700 --- [customer-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-05T15:11:06.031+05:30  INFO 1700 --- [customer-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-05T15:11:07.089+05:30  INFO 1700 --- [customer-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-05T15:11:07.138+05:30  INFO 1700 --- [customer-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2026-06-05T15:11:07.356+05:30  INFO 1700 --- [customer-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0c3ffd12-e5a5-387e-ba12-826582dacdd6
+2026-06-05T15:11:07.876+05:30  INFO 1700 --- [customer-service] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-05T15:11:07.890+05:30  INFO 1700 --- [customer-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-05T15:11:07.890+05:30  INFO 1700 --- [customer-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-05T15:11:07.948+05:30  INFO 1700 --- [customer-service] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1915 ms
+2026-06-05T15:11:08.178+05:30  INFO 1700 --- [customer-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-05T15:11:08.524+05:30  INFO 1700 --- [customer-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e220d40
+2026-06-05T15:11:08.527+05:30  INFO 1700 --- [customer-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-05T15:11:08.558+05:30  INFO 1700 --- [customer-service] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-05T15:11:08.620+05:30  INFO 1700 --- [customer-service] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-05T15:11:09.133+05:30  INFO 1700 --- [customer-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-05T15:11:09.233+05:30  INFO 1700 --- [customer-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/customer_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: customer_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-05T15:11:10.043+05:30  INFO 1700 --- [customer-service] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-05T15:11:10.051+05:30  INFO 1700 --- [customer-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-05T15:11:10.137+05:30  INFO 1700 --- [customer-service] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-05T15:11:10.506+05:30  WARN 1700 --- [customer-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-05T15:11:11.200+05:30  INFO 1700 --- [customer-service] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2026-06-05T15:11:11.301+05:30  INFO 1700 --- [customer-service] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-06-05T15:11:11.313+05:30  INFO 1700 --- [customer-service] [restartedMain] com.msedcl.main.customer.Application     : Started Application in 6.344 seconds (process running for 7.225)
+2026-06-05T15:11:11.692+05:30  INFO 1700 --- [customer-service] [RMI TCP Connection(8)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-05T15:11:11.692+05:30  INFO 1700 --- [customer-service] [RMI TCP Connection(8)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-05T15:11:11.694+05:30  INFO 1700 --- [customer-service] [RMI TCP Connection(8)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-06-05T15:16:05.296+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T15:16:05.504+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T15:16:05.507+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T15:16:05.508+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T15:16:05.508+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T15:16:05.508+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=4, name=snehal, email=snehal@gmail.com, mobileNumber=7896541236)
+2026-06-05T15:16:22.221+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : Request received to add new customer
+2026-06-05T15:16:22.222+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : CustomerRequestDTO(name=shamal, email=shamal@gmail.com, mobileNumber=9874563215)
+2026-06-05T15:16:22.426+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : New customer added successfully
+2026-06-05T15:16:22.426+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=5, name=shamal, email=shamal@gmail.com, mobileNumber=9874563215)
+2026-06-05T15:16:22.443+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T15:16:22.449+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T15:16:22.449+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T15:16:22.449+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T15:16:22.449+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T15:16:22.450+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=4, name=snehal, email=snehal@gmail.com, mobileNumber=7896541236)
+2026-06-05T15:16:22.450+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=5, name=shamal, email=shamal@gmail.com, mobileNumber=9874563215)
+2026-06-05T15:17:08.668+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T15:17:08.675+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T15:17:08.675+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T15:17:08.675+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T15:17:08.675+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T15:17:08.675+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=4, name=snehal, email=snehal@gmail.com, mobileNumber=7896541236)
+2026-06-05T15:17:08.675+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=5, name=shamal, email=shamal@gmail.com, mobileNumber=9874563215)
+2026-06-05T15:17:24.202+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-6] c.m.m.c.controller.CustomerController    : Request received to add new customer
+2026-06-05T15:17:24.202+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-6] c.m.m.c.controller.CustomerController    : CustomerRequestDTO(name=veerti, email=veerti@gmail.com, mobileNumber=8745963214)
+2026-06-05T15:17:24.322+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-6] c.m.m.c.controller.CustomerController    : New customer added successfully
+2026-06-05T15:17:24.322+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-6] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=6, name=veerti, email=veerti@gmail.com, mobileNumber=8745963214)
+2026-06-05T15:17:24.338+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T15:17:24.344+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T15:17:24.344+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T15:17:24.345+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T15:17:24.345+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T15:17:24.345+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=4, name=snehal, email=snehal@gmail.com, mobileNumber=7896541236)
+2026-06-05T15:17:24.345+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=5, name=shamal, email=shamal@gmail.com, mobileNumber=9874563215)
+2026-06-05T15:17:24.345+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=6, name=veerti, email=veerti@gmail.com, mobileNumber=8745963214)
+2026-06-05T15:24:48.305+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T15:24:48.312+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T15:24:48.312+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T15:24:48.312+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T15:24:48.312+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T15:24:48.312+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=4, name=snehal, email=snehal@gmail.com, mobileNumber=7896541236)
+2026-06-05T15:24:48.312+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=5, name=shamal, email=shamal@gmail.com, mobileNumber=9874563215)
+2026-06-05T15:24:48.312+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=6, name=veerti, email=veerti@gmail.com, mobileNumber=8745963214)
+2026-06-05T15:25:02.766+05:30  WARN 1700 --- [customer-service] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.msedcl.main.customer.common.ApiResponse<com.msedcl.main.customer.dto.CustomerResponseDTO>> com.msedcl.main.customer.controller.CustomerController.addNewCustomer(com.msedcl.main.customer.dto.CustomerRequestDTO) with 2 errors: [Field error in object 'customerRequestDTO' on field 'email': rejected value [ssds]; codes [Email.customerRequestDTO.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [customerRequestDTO.email,email]; arguments []; default message [email],[Ljakarta.validation.constraints.Pattern$Flag;@2db7c7c,.*]; default message [Invalid EmailId]] [Field error in object 'customerRequestDTO' on field 'mobileNumber': rejected value [sdad]; codes [Length.customerRequestDTO.mobileNumber,Length.mobileNumber,Length.java.lang.String,Length]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [customerRequestDTO.mobileNumber,mobileNumber]; arguments []; default message [mobileNumber],13,10]; default message [length must be between 10 and 13]] ]
+2026-06-05T15:31:13.141+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T15:31:13.149+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T15:31:13.149+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T15:31:13.149+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T15:31:13.149+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T15:31:13.150+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=4, name=snehal, email=snehal@gmail.com, mobileNumber=7896541236)
+2026-06-05T15:31:13.150+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=5, name=shamal, email=shamal@gmail.com, mobileNumber=9874563215)
+2026-06-05T15:31:13.150+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-1] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=6, name=veerti, email=veerti@gmail.com, mobileNumber=8745963214)
+2026-06-05T15:31:19.476+05:30  WARN 1700 --- [customer-service] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.msedcl.main.customer.common.ApiResponse<com.msedcl.main.customer.dto.CustomerResponseDTO>> com.msedcl.main.customer.controller.CustomerController.addNewCustomer(com.msedcl.main.customer.dto.CustomerRequestDTO) with 2 errors: [Field error in object 'customerRequestDTO' on field 'mobileNumber': rejected value [dsas]; codes [Length.customerRequestDTO.mobileNumber,Length.mobileNumber,Length.java.lang.String,Length]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [customerRequestDTO.mobileNumber,mobileNumber]; arguments []; default message [mobileNumber],13,10]; default message [length must be between 10 and 13]] [Field error in object 'customerRequestDTO' on field 'email': rejected value [dasd]; codes [Email.customerRequestDTO.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [customerRequestDTO.email,email]; arguments []; default message [email],[Ljakarta.validation.constraints.Pattern$Flag;@2db7c7c,.*]; default message [Invalid EmailId]] ]
+2026-06-05T15:44:05.480+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T15:44:05.488+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T15:44:05.488+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T15:44:05.488+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T15:44:05.488+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T15:44:05.488+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=4, name=snehal, email=snehal@gmail.com, mobileNumber=7896541236)
+2026-06-05T15:44:05.488+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=5, name=shamal, email=shamal@gmail.com, mobileNumber=9874563215)
+2026-06-05T15:44:05.488+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-3] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=6, name=veerti, email=veerti@gmail.com, mobileNumber=8745963214)
+2026-06-05T15:45:38.312+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T15:45:38.319+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T15:45:38.319+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T15:45:38.319+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T15:45:38.319+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T15:45:38.319+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=4, name=snehal, email=snehal@gmail.com, mobileNumber=7896541236)
+2026-06-05T15:45:38.319+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=5, name=shamal, email=shamal@gmail.com, mobileNumber=9874563215)
+2026-06-05T15:45:38.319+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-5] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=6, name=veerti, email=veerti@gmail.com, mobileNumber=8745963214)
+2026-06-05T15:47:53.103+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T15:47:53.109+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T15:47:53.110+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T15:47:53.110+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T15:47:53.110+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T15:47:53.110+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=4, name=snehal, email=snehal@gmail.com, mobileNumber=7896541236)
+2026-06-05T15:47:53.110+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=5, name=shamal, email=shamal@gmail.com, mobileNumber=9874563215)
+2026-06-05T15:47:53.110+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=6, name=veerti, email=veerti@gmail.com, mobileNumber=8745963214)
+2026-06-05T15:53:04.872+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T15:53:04.877+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T15:53:04.877+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T15:53:04.878+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T15:53:04.878+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T15:53:04.878+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=4, name=snehal, email=snehal@gmail.com, mobileNumber=7896541236)
+2026-06-05T15:53:04.878+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=5, name=shamal, email=shamal@gmail.com, mobileNumber=9874563215)
+2026-06-05T15:53:04.878+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-9] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=6, name=veerti, email=veerti@gmail.com, mobileNumber=8745963214)
+2026-06-05T15:53:44.123+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T15:53:44.129+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T15:53:44.129+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T15:53:44.129+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T15:53:44.129+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T15:53:44.129+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=4, name=snehal, email=snehal@gmail.com, mobileNumber=7896541236)
+2026-06-05T15:53:44.130+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=5, name=shamal, email=shamal@gmail.com, mobileNumber=9874563215)
+2026-06-05T15:53:44.130+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-10] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=6, name=veerti, email=veerti@gmail.com, mobileNumber=8745963214)
+2026-06-05T15:55:34.710+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T15:55:34.717+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T15:55:34.717+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T15:55:34.717+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T15:55:34.717+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T15:55:34.717+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=4, name=snehal, email=snehal@gmail.com, mobileNumber=7896541236)
+2026-06-05T15:55:34.717+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=5, name=shamal, email=shamal@gmail.com, mobileNumber=9874563215)
+2026-06-05T15:55:34.717+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-2] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=6, name=veerti, email=veerti@gmail.com, mobileNumber=8745963214)
+2026-06-05T15:57:49.789+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-4] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T15:57:49.795+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-4] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T15:57:49.795+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-4] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T15:57:49.796+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-4] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T15:57:49.796+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-4] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T15:57:49.796+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-4] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=4, name=snehal, email=snehal@gmail.com, mobileNumber=7896541236)
+2026-06-05T15:57:49.796+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-4] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=5, name=shamal, email=shamal@gmail.com, mobileNumber=9874563215)
+2026-06-05T15:57:49.796+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-4] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=6, name=veerti, email=veerti@gmail.com, mobileNumber=8745963214)
+2026-06-05T16:08:28.055+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-6] c.m.m.c.controller.CustomerController    : Request received to add new customer
+2026-06-05T16:08:28.056+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-6] c.m.m.c.controller.CustomerController    : CustomerRequestDTO(name=prajakta, email=as@gmail.com, mobileNumber=8974568965)
+2026-06-05T16:08:28.156+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-6] c.m.m.c.controller.CustomerController    : New customer added successfully
+2026-06-05T16:08:28.157+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-6] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=7, name=prajakta, email=as@gmail.com, mobileNumber=8974568965)
+2026-06-05T16:08:28.169+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : Request received to retrive all customer details
+2026-06-05T16:08:28.176+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : All Customers retrived successfully
+2026-06-05T16:08:28.176+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=1, name=Reema, email=reema@gmail.com, mobileNumber=123456789)
+2026-06-05T16:08:28.176+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=2, name=Seema, email=seema@gmail.com, mobileNumber=987654321)
+2026-06-05T16:08:28.176+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=3, name=prajakta, email=praj123@gmail.com, mobileNumber=8965412378)
+2026-06-05T16:08:28.176+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=4, name=snehal, email=snehal@gmail.com, mobileNumber=7896541236)
+2026-06-05T16:08:28.176+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=5, name=shamal, email=shamal@gmail.com, mobileNumber=9874563215)
+2026-06-05T16:08:28.176+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=6, name=veerti, email=veerti@gmail.com, mobileNumber=8745963214)
+2026-06-05T16:08:28.176+05:30  INFO 1700 --- [customer-service] [http-nio-8080-exec-7] c.m.m.c.controller.CustomerController    : CustomerResponseDTO(customerId=7, name=prajakta, email=as@gmail.com, mobileNumber=8974568965)
+2026-06-05T16:21:58.323+05:30  INFO 1700 --- [customer-service] [RMI TCP Connection(80)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-06-05T16:21:58.328+05:30  INFO 1700 --- [customer-service] [RMI TCP Connection(80)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-05T16:21:58.331+05:30  INFO 1700 --- [customer-service] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-06-05T16:21:58.339+05:30  INFO 1700 --- [customer-service] [RMI TCP Connection(80)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-05T16:21:58.343+05:30  INFO 1700 --- [customer-service] [RMI TCP Connection(80)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-05T16:21:58.346+05:30  INFO 1700 --- [customer-service] [RMI TCP Connection(80)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
