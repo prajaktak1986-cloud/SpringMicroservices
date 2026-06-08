@@ -1,0 +1,37 @@
+spring:
+ application:
+  name: "05_TransactionService"
+ datasource:
+   username: root
+   password: root123
+   url: jdbc:mysql://localhost:3306/transactions_db
+   driver-class-name: com.mysql.cj.jdbc.Driver
+
+springdoc:
+ api-docs:
+  enabled: false
+
+logging:
+ file:
+  name: log/transaction.log
+
+server: 
+ port: 8282
+
+build:
+ version: "3.1"
+transaction: 
+   message: "Welcome to MSEDCL bank transaction related REST API-Prod"
+   contactDetails: 
+    name: "Prajakta_transaction_Prod"
+    email: "apmumbai22@mahadiscom.in"
+   onCallSupport:
+    - 9833753389
+    - 9869386358
+#spring.datasource.username=root
+#spring.datasource.password=root123
+#spring.datasource.url=jdbc:mysql://localhost:3306/transactions_db
+#spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+#logging.file.name=logs/account.log
+#server.port = 8282
