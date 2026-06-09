@@ -1,0 +1,24 @@
+spring:
+    application:
+        name: "06_ConfigServer"
+    profiles:
+        active:
+            - git
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/prajaktak1986-cloud/msedcl-banking-config
+                    default-label: main
+                    timeout: 5
+                    clone-on-start: true # copy github repositoryon startup of application
+                    force-pull: true
+server:
+    port: 8383
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+       
